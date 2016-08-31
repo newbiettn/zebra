@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ site.title }} - {{ site.description }}</title>
+    {% include head.html %}
+  </head>
+  <body class="home blog">
+  	<div class="preloader">
+    		<div class="preload-status">&nbsp;</div>
+  	</div>
+  	<!-- Header -->
+    {% include header.html %}
+  	<!-- End Header -->
+    <!-- Main Page Content and Sidebar -->
+    <div class="row">
+    	<div class="two columns">
+    	</div>
+    	<div class="content-container eight columns">
+        {{content}}
+      </div>
+      <aside class="two columns fixed">
+        <div class="row sidebar ">
+        </div>
+      </aside>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

@@ -1,0 +1,28 @@
+title:            Zebra
+description:      A zebra does not change its spots
+url:              http://127.0.0.1:4000
+signoff:          Ngoc Tran
+
+links:
+  - name:         Home
+    url:          /
+  - name:         Sample Page
+    url:          /sample-page
+
+permalink:        pretty
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  input:          GFM
+  syntax_highlighter: rouge
+
+  # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
+  # span, block element options fall back to global
+  syntax_highlighter_opts:
+    # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: 'highlight'
+    #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1

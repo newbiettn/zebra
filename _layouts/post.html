@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='{{ page.title }} - {{ site.title }}' property='og:title' />
+    <title>{{ page.title }} - {{ site.title }}</title>
+    {% include head.html %}
+  </head>
+  <body class="home blog">
+  	<div class="preloader">
+    		<div class="preload-status">&nbsp;</div>
+  	</div>
+  	<!-- Header -->
+    {% include header.html %}
+  	<!-- End Header -->
+    <!-- Main Page Content and Sidebar -->
+    <div class="row">
+    	<div class="two columns">
+    	</div>
+    	<div class="content-container eight columns">
+    		<!-- Post -->
+        <div class="row article-container">
+    			<div class="twelve columns">
+    				<div class="row border-top-normal">
+    						<article>
+    							<div>
+    								<header class="post_title">
+    									<div class="row">
+    										<div class="one columns">
+    											<time class="dateline" datetime="{{ page.date | date: '%B %d, %Y'}}">{{ page.date | date: '%B %d, %Y'}}</time>
+    										</div>
+    										<div class="eleven columns">
+    											<h2><a href="#" title="{{ page.title }}">{{ page.title }}</a></h2>
+    										</div>
+    									</div>
+    								</header>
+                    <div class="row">
+                      <div class="maincontent">
+                        <div class="twelve columns">
+                          {{ content }}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+    			</div>
+    		</div>
+        <!-- End Post -->
+    </div>
+    <aside class="two columns fixed">
+      <div class="row sidebar ">
+      </div>
+    </aside>
+  </div>
+    {% include footer.html %}
+  </body>
+</html>

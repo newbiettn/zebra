@@ -1,0 +1,27 @@
+<header class="row site-header">
+  <div class="two columns">
+  </div>
+  <div class="eight columns ">
+    <div class="row border-top-normal">
+      <a href="{{ site.url }}">
+        <h1 class="logo">{{ site.title }}</h1>
+      </a>
+      <p class="motto">{{ site.description }}</p>
+    </div>
+  </div>
+  <div class="two columns fixed">
+    <nav class="border-top-normal">
+      <ul id="themenu" class="navigation">
+      {% for link in site.links %}
+        <li>
+          <a target="{% if link.external %}_blank{% else %}_top{% endif %}"
+             class="navigation"
+             href="{% unless link.external %}{{ site.url }}{% endunless %}{{ link.url }}">
+             {{ link.name }}
+           </a>
+        </li>
+      {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
