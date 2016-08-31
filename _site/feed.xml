@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zebra</title>
+    <description>A zebra does not change its spots</description>
+    <link>http://ngoctran.me/zebra/</link>
+    <atom:link href="http://ngoctran.me/zebra//feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Introduction</title>
+        <description>&lt;p&gt;Morbi venenatis enim sed dui elementum pellentesque. Sed sit amet ex scelerisque mi luctus vehicula. Nullam libero metus, consectetur in est eget, consectetur viverra dui.&lt;/p&gt;
+
+&lt;h4 id=&quot;block-quotes&quot;&gt;Block quotes&lt;/h4&gt;
+&lt;p&gt;Fusce blandit, ipsum et rutrum efficitur, ipsum nibh bibendum justo, a gravida enim dui ut urna. Nunc sit amet tellus in ex venenatis eleifend at eu velit. Cras tincidunt luctus magna, pellentesque imperdiet purus semper a. Donec ut nisi sem.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In eu volutpat odio, ac feugiat nulla. Nam non nisi dui. In pellentesque pretium bibendum. Nullam volutpat purus vel congue venenatis. In hac habitasse platea dictumst. Donec auctor dignissim justo, volutpat consectetur leo. Cras vitae diam nec dui gravida interdum. Donec aliquam in ante a auctor. Vivamus sagittis diam et diam lobortis, at convallis tortor tincidunt. Donec sit amet sagittis metus, et pharetra metus. Praesent semper eget risus vel ultrices.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;code-listing&quot;&gt;Code listing&lt;/h4&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem risus, lobortis sed elit quis, facilisis eleifend ex.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cm&quot;&gt;/**
+ * The HelloWorldApp class implements an application that
+ * simply displays &quot;Hello World!&quot; to the standard output.
+ */&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HelloWorldApp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//Display the string.&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;lists&quot;&gt;Lists&lt;/h4&gt;
+&lt;p&gt;Aliquam leo metus, vulputate vel dignissim et, sagittis eget enim. Sed porttitor mi id diam facilisis, quis dapibus dolor pellentesque. In urna libero, efficitur ac pulvinar quis, semper nec nisi.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Praesent commodo cursus magna, vel scelerisque nisl consectetur et.&lt;/li&gt;
+  &lt;li&gt;Donec id elit non mi porta gravida at eget metus.&lt;/li&gt;
+  &lt;li&gt;Nulla vitae elit libero, a pharetra augue.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;images&quot;&gt;Images&lt;/h4&gt;
+&lt;p&gt;Vestibulum in odio sit amet leo fringilla cursus. Pellentesque nec odio libero. Sed metus ante, congue non eros vitae, luctus mollis diam. Vivamus eu justo vel mauris auctor ultrices. Vivamus sed enim lobortis, finibus dui mollis, ultricies velit. In vitae elementum mauris, iaculis blandit nulla&lt;/p&gt;
+
+&lt;div class=&quot;wp-caption aligncenter&quot;&gt;
+  &lt;img src=&quot;/images/sample-image.jpg&quot; alt=&quot;Sample 600 x 400 image&quot; /&gt;
+  &lt;p class=&quot;wp-caption-text&quot;&gt;
+    Sample 600 x 400 image
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;list&quot;&gt;List&lt;/h4&gt;
+&lt;p&gt;Phasellus erat lorem, imperdiet in ultricies sed, ultricies ac neque. Nulla blandit quam et turpis sollicitudin feugiat. Praesent id turpis ut diam facilisis elementum.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;First ordered list item&lt;/li&gt;
+  &lt;li&gt;Another item
+    &lt;ul&gt;
+      &lt;li&gt;Unordered sub-list.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Actual numbers don’t matter, just that it’s a number&lt;/li&gt;
+  &lt;li&gt;Ordered sub-list&lt;/li&gt;
+  &lt;li&gt;And another item.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Wed, 31 Aug 2016 00:00:00 +1000</pubDate>
+        <link>http://ngoctran.me/zebra//2016/08/31/introduction/</link>
+        <guid isPermaLink="true">http://ngoctran.me/zebra//2016/08/31/introduction/</guid>
+      </item>
+    
+      <item>
+        <title>Suspendisse suscipit justo</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta vehicula nibh non efficitur. Maecenas auctor, nisl ut gravida maximus, arcu lacus imperdiet enim, et dignissim elit tortor a felis. Maecenas gravida odio non gravida aliquet. In eget velit laoreet, pretium leo nec, pulvinar sapien. Curabitur consequat ultrices urna, nec ultrices mi blandit ac. Etiam interdum tellus eu diam posuere, non condimentum sapien aliquam. Donec ultrices mattis turpis sit amet feugiat. Integer luctus non est scelerisque feugiat. Nulla est ante, ullamcorper nec condimentum at, molestie facilisis mauris.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse suscipit justo molestie lectus blandit congue. Integer venenatis diam ac sapien porta imperdiet. Vestibulum vulputate velit id ante vestibulum, eget blandit sapien rhoncus. Integer scelerisque, tortor at aliquet vulputate, velit ipsum vestibulum massa, nec dignissim purus nisi quis tortor. Nam mollis eros quis erat ullamcorper, vel mattis mauris scelerisque. Suspendisse potenti. Vestibulum commodo tincidunt elit ac fermentum. Mauris posuere massa non massa porttitor condimentum ac ac lacus. Sed sed convallis orci. Vivamus lacinia diam dolor, ut posuere eros pretium id. Sed cursus dui ut velit elementum pretium. Ut eros tellus, porttitor quis fringilla vel, hendrerit sit amet lacus. Maecenas facilisis lorem sit amet arcu maximus volutpat. Maecenas gravida gravida sapien vitae posuere. Sed vulputate orci dui, eget viverra nisl luctus vel. Aliquam facilisis nisl ante, a varius mi iaculis eu.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac massa eu ex vestibulum ullamcorper. Pellentesque sed nulla at turpis suscipit facilisis eget eu nisl. Sed commodo imperdiet accumsan. Integer euismod maximus elit, eleifend maximus risus facilisis at. Sed ac enim sed libero pellentesque ullamcorper a sed neque. Nunc luctus lacus non risus cursus, nec sagittis dolor efficitur. Sed auctor bibendum efficitur. Sed in leo eu risus egestas tincidunt nec in nisl. Aenean varius massa nec risus tempor, ac imperdiet magna lacinia. Donec vehicula iaculis tellus, eget rutrum magna pulvinar at. Fusce interdum, massa eu vestibulum ullamcorper, diam sapien bibendum sem, vel ultricies nisi dolor quis nunc. Sed leo ipsum, efficitur nec libero at, facilisis blandit eros. Donec elementum eu nibh eget posuere. Mauris ultrices, nulla eu aliquam consequat, ligula neque malesuada elit, in blandit tellus arcu ut lorem.&lt;/p&gt;
+
+&lt;p&gt;Nunc eu quam nibh. Aliquam vitae semper erat. Suspendisse non eros eget massa auctor molestie at vitae metus. Fusce luctus enim non bibendum laoreet. Integer tincidunt tempus nisi quis ultricies. Phasellus ut venenatis mauris. Nunc quis sapien ornare lectus placerat lacinia. In molestie elit mauris, sed rhoncus dui laoreet ut. Suspendisse cursus est metus, at facilisis mauris commodo a. Sed dictum quis augue sed tempus. Phasellus lacinia ex lorem, ac cursus ante porta et.&lt;/p&gt;
+
+&lt;p&gt;Phasellus ultricies pretium felis, quis efficitur purus sodales non. Vivamus pellentesque, felis ac aliquet auctor, nulla eros sollicitudin ante, in ultrices nisl ligula nec nisl. Phasellus augue justo, commodo id arcu eget, commodo ultricies tortor. Pellentesque nec massa eu nisi varius aliquet vel ac nibh. Donec convallis, ex vel sagittis luctus, eros ipsum cursus ipsum, a facilisis tellus metus a ipsum. Curabitur leo orci, porta in faucibus et, hendrerit eu urna. Proin quis molestie urna. Nam vel porttitor ante, sit amet sodales elit. Sed sit amet sem eu eros tempus tincidunt. In hac habitasse platea dictumst.&lt;/p&gt;
+
+&lt;p&gt;Duis tincidunt tortor sapien. In in auctor ligula. Nullam suscipit pretium arcu at viverra. Nullam vitae dolor turpis. Nam luctus feugiat eros eget lobortis. Etiam ut ante nisi. Aliquam erat volutpat. Cras vulputate elit quis neque feugiat mattis. Quisque non mattis justo, cursus sagittis tellus. Phasellus facilisis velit vitae tortor sodales sodales. Nunc eget tempor dui. Curabitur suscipit pretium est non finibus.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 30 Aug 2015 00:00:00 +1000</pubDate>
+        <link>http://ngoctran.me/zebra//2015/08/30/suspendisse-suscipit-justo/</link>
+        <guid isPermaLink="true">http://ngoctran.me/zebra//2015/08/30/suspendisse-suscipit-justo/</guid>
+      </item>
+    
+      <item>
+        <title>Suspendisse non eros</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac massa eu ex vestibulum ullamcorper. Pellentesque sed nulla at turpis suscipit facilisis eget eu nisl. Sed commodo imperdiet accumsan. Integer euismod maximus elit, eleifend maximus risus facilisis at. Sed ac enim sed libero pellentesque ullamcorper a sed neque. Nunc luctus lacus non risus cursus, nec sagittis dolor efficitur. Sed auctor bibendum efficitur. Sed in leo eu risus egestas tincidunt nec in nisl. Aenean varius massa nec risus tempor, ac imperdiet magna lacinia. Donec vehicula iaculis tellus, eget rutrum magna pulvinar at. Fusce interdum, massa eu vestibulum ullamcorper, diam sapien bibendum sem, vel ultricies nisi dolor quis nunc. Sed leo ipsum, efficitur nec libero at, facilisis blandit eros. Donec elementum eu nibh eget posuere. Mauris ultrices, nulla eu aliquam consequat, ligula neque malesuada elit, in blandit tellus arcu ut lorem.&lt;/p&gt;
+
+&lt;p&gt;Nunc eu quam nibh. Aliquam vitae semper erat. Suspendisse non eros eget massa auctor molestie at vitae metus. Fusce luctus enim non bibendum laoreet. Integer tincidunt tempus nisi quis ultricies. Phasellus ut venenatis mauris. Nunc quis sapien ornare lectus placerat lacinia. In molestie elit mauris, sed rhoncus dui laoreet ut. Suspendisse cursus est metus, at facilisis mauris commodo a. Sed dictum quis augue sed tempus. Phasellus lacinia ex lorem, ac cursus ante porta et.&lt;/p&gt;
+
+&lt;p&gt;Phasellus ultricies pretium felis, quis efficitur purus sodales non. Vivamus pellentesque, felis ac aliquet auctor, nulla eros sollicitudin ante, in ultrices nisl ligula nec nisl. Phasellus augue justo, commodo id arcu eget, commodo ultricies tortor. Pellentesque nec massa eu nisi varius aliquet vel ac nibh. Donec convallis, ex vel sagittis luctus, eros ipsum cursus ipsum, a facilisis tellus metus a ipsum. Curabitur leo orci, porta in faucibus et, hendrerit eu urna. Proin quis molestie urna. Nam vel porttitor ante, sit amet sodales elit. Sed sit amet sem eu eros tempus tincidunt. In hac habitasse platea dictumst.&lt;/p&gt;
+
+&lt;p&gt;Duis tincidunt tortor sapien. In in auctor ligula. Nullam suscipit pretium arcu at viverra. Nullam vitae dolor turpis. Nam luctus feugiat eros eget lobortis. Etiam ut ante nisi. Aliquam erat volutpat. Cras vulputate elit quis neque feugiat mattis. Quisque non mattis justo, cursus sagittis tellus. Phasellus facilisis velit vitae tortor sodales sodales. Nunc eget tempor dui. Curabitur suscipit pretium est non finibus.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Jul 2015 00:00:00 +1000</pubDate>
+        <link>http://ngoctran.me/zebra//2015/07/29/sample-post-for-2015/</link>
+        <guid isPermaLink="true">http://ngoctran.me/zebra//2015/07/29/sample-post-for-2015/</guid>
+      </item>
+    
+      <item>
+        <title>In eu volutpat odio</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem risus, lobortis sed elit quis, facilisis eleifend ex. Praesent sodales tellus lacus, a aliquam augue aliquam eu. Praesent elit libero, aliquet nec venenatis et, mollis vitae nunc. Ut tincidunt nulla cursus, dapibus velit nec, fringilla quam. Vestibulum auctor nulla ac sapien porttitor blandit. Vivamus malesuada imperdiet tellus, et blandit ex suscipit vel. Integer nec tempus neque, vel semper felis. Fusce blandit, ipsum et rutrum efficitur, ipsum nibh bibendum justo, a gravida enim dui ut urna. Nunc sit amet tellus in ex venenatis eleifend at eu velit. Cras tincidunt luctus magna, pellentesque imperdiet purus semper a. Donec ut nisi sem.&lt;/p&gt;
+
+&lt;p&gt;Morbi venenatis enim sed dui elementum pellentesque. Sed sit amet ex scelerisque mi luctus vehicula. Nullam libero metus, consectetur in est eget, consectetur viverra dui. Etiam dictum, libero id auctor eleifend, lorem ipsum suscipit ante, at imperdiet erat sapien vel nisl. Mauris sed lectus nec velit sodales aliquam eget id lacus. Aenean viverra nibh eget nisi mollis varius. Proin fringilla metus quis turpis feugiat, in auctor urna vulputate. Nunc sollicitudin ornare mi maximus molestie. Suspendisse tincidunt eu tellus et vehicula. Maecenas placerat libero sed maximus pharetra. Duis id sodales ligula. Sed pretium lacinia placerat. Aliquam non ultricies turpis, eget vulputate metus. Integer nec nunc a tortor porta tempus. Quisque consequat velit et lorem posuere pretium.&lt;/p&gt;
+
+&lt;p&gt;In eu volutpat odio, ac feugiat nulla. Nam non nisi dui. In pellentesque pretium bibendum. Nullam volutpat purus vel congue venenatis. In hac habitasse platea dictumst. Donec auctor dignissim justo, volutpat consectetur leo. Cras vitae diam nec dui gravida interdum. Donec aliquam in ante a auctor. Vivamus sagittis diam et diam lobortis, at convallis tortor tincidunt. Donec sit amet sagittis metus, et pharetra metus. Praesent semper eget risus vel ultrices.&lt;/p&gt;
+
+&lt;p&gt;Aliquam leo metus, vulputate vel dignissim et, sagittis eget enim. Sed porttitor mi id diam facilisis, quis dapibus dolor pellentesque. In urna libero, efficitur ac pulvinar quis, semper nec nisi. Vestibulum in odio sit amet leo fringilla cursus. Pellentesque nec odio libero. Sed metus ante, congue non eros vitae, luctus mollis diam. Vivamus eu justo vel mauris auctor ultrices. Vivamus sed enim lobortis, finibus dui mollis, ultricies velit. In vitae elementum mauris, iaculis blandit nulla. Nunc vestibulum malesuada lacus, et pulvinar augue luctus id. Cras blandit libero sem, sed venenatis est interdum laoreet. Nam gravida est quis nunc viverra ultrices porttitor ullamcorper eros. Fusce laoreet, nunc nec accumsan gravida, lectus metus finibus enim, quis porta nisi nibh vitae tortor.&lt;/p&gt;
+
+&lt;p&gt;Phasellus erat lorem, imperdiet in ultricies sed, ultricies ac neque. Nulla blandit quam et turpis sollicitudin feugiat. Praesent id turpis ut diam facilisis elementum. Phasellus ut semper felis. Aenean et nisl nec leo convallis molestie quis sed libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla pretium aliquet purus, ac volutpat odio malesuada lobortis. Ut hendrerit placerat augue vitae viverra. Donec ut sapien rhoncus, blandit lectus et, sollicitudin tortor. Cras in libero eu erat finibus eleifend. Sed in lectus neque. Pellentesque tincidunt porta congue. Suspendisse nec arcu risus. Nulla in lectus sit amet dui fermentum bibendum. Nam finibus lacinia quam, in commodo nulla vulputate eget.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 28 Mar 2014 00:00:00 +1100</pubDate>
+        <link>http://ngoctran.me/zebra//2014/03/28/eu-volutpat-odio/</link>
+        <guid isPermaLink="true">http://ngoctran.me/zebra//2014/03/28/eu-volutpat-odio/</guid>
+      </item>
+    
+      <item>
+        <title>Sed sit amet</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et dolor in tortor accumsan malesuada nec vel nibh. Praesent orci nisl, rutrum in mollis ut, aliquam in ipsum. Nam fermentum suscipit rutrum. Praesent at dolor ipsum. Etiam a turpis enim. Donec sit amet massa eu eros varius imperdiet. Aenean blandit justo at nunc eleifend, eu fringilla dui varius. Maecenas pretium porttitor neque, ut varius nisl placerat nec. Suspendisse id tincidunt quam. Ut eu molestie quam, non sollicitudin nisi. Nullam sodales vitae urna euismod placerat.&lt;/p&gt;
+
+&lt;p&gt;Vivamus urna sapien, condimentum sed lacus eu, congue vulputate est. Aenean a ultrices purus. Pellentesque sollicitudin, risus vel gravida malesuada, elit mi commodo nunc, a malesuada felis tortor vel turpis. Quisque fringilla tempus ante nec euismod. Phasellus porta condimentum mauris eu fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse potenti.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 15 Mar 2014 00:00:00 +1100</pubDate>
+        <link>http://ngoctran.me/zebra//2014/03/15/sed-sit-amet/</link>
+        <guid isPermaLink="true">http://ngoctran.me/zebra//2014/03/15/sed-sit-amet/</guid>
+      </item>
+    
+      <item>
+        <title>Lorem ipsum</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue orci arcu, convallis placerat ipsum consectetur ac. Praesent congue, dui et egestas tristique, metus velit elementum tellus, vel porttitor ligula nunc a massa. Donec diam arcu, luctus id pellentesque eu, vehicula ac orci. Integer accumsan lacinia erat in viverra. Aenean a ipsum laoreet justo molestie mollis sed at quam. Ut venenatis posuere lorem a mattis. Quisque eget enim dictum, euismod justo non, luctus nisi. Aenean dapibus ullamcorper scelerisque. Quisque a blandit ipsum. Vivamus justo tellus, facilisis ut ornare eget, iaculis eget massa. Sed odio libero, luctus at elementum sit amet, efficitur vitae quam. Phasellus tincidunt tellus non lorem vestibulum, sit amet vehicula dui condimentum. Sed vel erat congue, ullamcorper dolor vel, molestie nisi. Mauris finibus nunc quis consequat porta. Sed molestie risus sed eros scelerisque tincidunt.&lt;/p&gt;
+
+&lt;p&gt;Duis condimentum porttitor lectus et rutrum. Etiam volutpat odio nec iaculis accumsan. Sed non varius urna, nec porttitor purus. In suscipit eleifend neque, eu mattis risus semper eu. Cras bibendum magna quis tortor gravida, sit amet gravida neque lacinia. Integer accumsan libero urna, eget elementum mauris rhoncus ac. Cras semper mollis eros quis ultrices. Praesent vel diam sed nibh pharetra sagittis.&lt;/p&gt;
+
+&lt;p&gt;Integer tincidunt pharetra porta. Phasellus sed imperdiet mauris, sed imperdiet ante. Donec odio sem, vulputate et tortor quis, feugiat mollis nisl. In fermentum turpis ac accumsan semper. Integer lacus elit, facilisis sit amet scelerisque eget, lobortis ullamcorper risus. Mauris laoreet nec enim a congue. Praesent a pellentesque neque, et ultrices neque. Praesent quis pulvinar leo. Etiam felis erat, dictum non tincidunt at, dictum ac mauris. Donec metus dui, volutpat vel tortor efficitur, mollis luctus libero.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Jan 2013 00:00:00 +1100</pubDate>
+        <link>http://ngoctran.me/zebra//2013/01/01/lorem-ipsum/</link>
+        <guid isPermaLink="true">http://ngoctran.me/zebra//2013/01/01/lorem-ipsum/</guid>
+      </item>
+    
+  </channel>
+</rss>
