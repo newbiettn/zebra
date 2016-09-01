@@ -15,7 +15,7 @@ Feel youself with a live demo here: http://zebra.ngoctran.me
 2. Highly customizable.
 3. Clear code syntax
 4. Support both Page and Post layouts.
-5. Disqus comment.
+5. Enable Disqus comment.
 
 ```
 ---
