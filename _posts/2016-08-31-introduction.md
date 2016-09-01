@@ -1,6 +1,7 @@
 ---
 title: Introduction
 layout: post
+comments: true
 ---
 Morbi venenatis enim sed dui elementum pellentesque. Sed sit amet ex scelerisque mi luctus vehicula. Nullam libero metus, consectetur in est eget, consectetur viverra dui.
 

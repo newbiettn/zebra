@@ -15,7 +15,17 @@ Feel youself with a live demo here: http://zebra.ngoctran.me
 2. Highly customizable.
 3. Clear code syntax
 4. Support both Page and Post layouts.
-5. Custom code for centered and captioned images.
+5. Disqus comment.
+
+```
+---
+title: Introduction
+layout: post
+comments: true
+---
+```
+
+6. Custom code for centered and captioned images.
 
 ```
 {% include image.html url="/images/<YOUR IMAGE>" description="<YOUR CAPTION>" %}
@@ -25,8 +35,7 @@ Feel youself with a live demo here: http://zebra.ngoctran.me
 
 ## Get started
 1. Fork the repository.
-2. Clone the repository.
-`git clone https://github.com/<YOUR USERNAME>/zebra`
+2. Clone the repository: `git clone https://github.com/<YOUR USERNAME>/zebra`
 3. Install the GitHub Pages gem (included Jekyll): `bundle install`
 4. Start the Jekyll server: `jekyll server --watch`
 5. Open http://127.0.0.1:4000/ or http://localhost:4000/
