@@ -4,9 +4,8 @@ Zebra is a minimal Jekyll theme. The idea of Zebra mainly comes from https://www
 
 > Everytime I look at a zebra, I can't figure out whether it's black with white stripes or white with black stripes, and that frustrates me.
 
-![Zebra](http://i.imgur.com/P51VcsP.png?1)
 
-![](http://i.imgur.com/MEpBWSJ.png?1)
+![Zebra](http://i.imgur.com/P51VcsP.png?1)
 
 ## Demo
 Feel youself with a live demo here: http://zebra.ngoctran.me
