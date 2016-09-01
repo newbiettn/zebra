@@ -13,7 +13,9 @@ Feel youself with a live demo here: http://zebra.ngoctran.me
 ## Features
 1. Thanks to CSS framework Foundation, the site is mobile friendly.
 2. Highly customizable.
-3. Custom code for centered and captioned images.
+3. Clear code syntax
+4. Support both Page and Post layouts.
+5. Custom code for centered and captioned images.
 
 ```
 {% include image.html url="/images/<YOUR IMAGE>" description="<YOUR CAPTION>" %}
